@@ -87,7 +87,23 @@ footer {
   padding: 20px;
   margin-top: 60px;
 }
+.footer-content{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1000px;
+margin:auto;
+}
 
+.footer-links a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.footer-links a:hover{
+text-decoration:underline;
+}
 
 
 
